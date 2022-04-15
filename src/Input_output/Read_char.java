@@ -15,7 +15,7 @@ public class Read_char {
 		int a = Integer.parseInt(br.readLine());
 		
 		System.out.println("Entered number is :"+ a);
-		
+		br.close();
 
 	}
 

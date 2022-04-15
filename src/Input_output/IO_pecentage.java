@@ -18,7 +18,7 @@ public class IO_pecentage {
 			System.out.print("Enter  the marks :");
 			marks[i]=Integer.parseInt(br.readLine());
 		}
-		
+		br.close();
 		int tot = 0;
 		
 		for(int i=0; i<n; i++) 

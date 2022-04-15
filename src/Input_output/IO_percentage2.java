@@ -1,7 +1,7 @@
 package Input_output;
 import java.io.*;
 
-public class IO_poercentage2 {
+public class IO_percentage2 {
 
 	public static void main(String[] args) throws IOException
 	{
@@ -18,7 +18,7 @@ public class IO_poercentage2 {
 			System.out.println("Enter the price");
 			items[i] = Integer.parseInt(br.readLine());
 		}
-		
+		br.close();
 		int total = 0;
 		
 		for(int i=0; i<n;i++) 

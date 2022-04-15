@@ -20,11 +20,12 @@ public class SearchFromString {
 			System.out.println("Enter the string");
 			s[i]= br.readLine();
 		} 
-
+		
 		System.out.println("Enter the string which want to find in string");
 
 		String search = br.readLine();
-		
+		boolean found = false;
+		br.close();
 		for (int i=0;i<n;i++) 
 		{
 			if(search.equalsIgnoreCase(s[i])) 
@@ -32,8 +33,11 @@ public class SearchFromString {
 				System.out.println("Searched string found at postion "+ i+1);
 			}
 		}
+		if(!found)
+		{
+			System.out.println("Requested string not in the list");
+		}
 		
-
 	}
 
 }

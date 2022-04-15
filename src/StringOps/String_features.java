@@ -13,7 +13,7 @@ public class String_features {
 		// Reads input form keyboard
 		System.out.println("Enter your word to lowercase");
 		String s = br.readLine();
-		
+		br.close();
 		// method converts the string into Lowercase
 		String s1 = lowercasetest(s);
 		System.out.println("Lowercase :"+ s1);
